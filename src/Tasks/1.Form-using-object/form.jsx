@@ -2,7 +2,7 @@ import { useState } from "react";
 import { toast } from "react-toastify";
 import { BackgroundContainer, Button, LoginFormData, Span } from "./form.Styles";
 
-const Form = () => {
+const TodoApp = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -114,4 +114,4 @@ const Form = () => {
   );
 };
 
-export default Form;
+export default TodoApp;
