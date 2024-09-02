@@ -2,11 +2,11 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
-import TaskApp from './Tasks/2.To-do App/app';
+import TodoAnimation from './Tasks/3Animation Reaction/Todo';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <ToastContainer />
-    <TaskApp />
+   <TodoAnimation />
   </StrictMode>,
 )
