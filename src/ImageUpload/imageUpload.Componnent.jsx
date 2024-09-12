@@ -52,7 +52,7 @@ const ImageUpload = () => {
         id="image-container"
         style={{ filter: filter, maxWidth: "100%", height: "auto" }}
       >
-        {image && <img src={image} alt="Uploaded" />}
+        {image && <img src={image} alt="No image" />}
       </div>
 
       <button onClick={downloadImage}>Download</button>
